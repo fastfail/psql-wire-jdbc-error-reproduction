@@ -10,6 +10,6 @@ javac -cp postgresql-8.3-603.jdbc3.jar PgConnectionTest.java
 # run
 ### run on powershell
 ```powershell
-java -cp .;postgresql-8.3-603.jdbc3.jar PgConnectionTest
+java --class-path ".;postgresql-8.3-603.jdbc3.jar" PgConnectionTest       
 ```
 ---
